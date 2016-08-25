@@ -1,0 +1,28 @@
+{
+  "name": "push2cloud-compiler-fs",
+  "version": "1.0.0",
+  "description": "filesystem plugin for push2cloud-compiler",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "author": "Adriano Raiano <adriano@raiano.ch> (https://github.com/adrai)",
+  "contributors": [
+    "Adriano Raiano <adriano@raiano.ch> (https://github.com/adrai)"
+  ],
+  "license": "Apache-2.0",
+  "repository": "push2cloud/compiler-fs",
+  "homepage": "http://push2.cloud/",
+  "devDependencies": {
+    "eslint": "2.13.1"
+  },
+  "dependencies": {
+    "debug": "2.2.0",
+    "lodash": "4.15.0",
+    "shelljs": "0.7.3"
+  }
+}
